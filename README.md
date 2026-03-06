@@ -32,9 +32,11 @@ Este MVP resolve esse problema automatizando o processo: basta fazer o upload da
 Como o modelo exige capacidade de processamento (GPU) para inferência rápida, todo o projeto foi estruturado num Notebook interativo.
 
 1. Faça upload do notebook deste repositório para o Google Colab.
-2. No menu superior, clique em **Ambiente de Execução** > **Executar Tudo**.
-3. Vá até à secção **4. Inferência Dinâmica** e clique no botão `Upload` para enviar a imagem do seu diagrama.
-4. O sistema irá exibir a imagem com as _bounding boxes_ (quadrados de deteção) desenhadas e, em seguida, imprimirá o Relatório STRIDE completo no ecrã.
+2. Faça upload do dataset presente neste repositório para o Google Colab.
+3. Renomeie o dataset para "dataset.zip".
+4. No menu superior, clique em **Ambiente de Execução** > **Executar Tudo**.
+5. Vá até à secção **4. Inferência Dinâmica** e clique no botão `Upload` para enviar a imagem do seu diagrama.
+6. O sistema irá exibir a imagem com as _bounding boxes_ (quadrados de deteção) desenhadas e, em seguida, imprimirá o Relatório STRIDE completo no ecrã.
 
 ## Metodologia de Treinamento
 
