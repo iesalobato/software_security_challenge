@@ -41,9 +41,3 @@ Como o modelo exige capacidade de processamento (GPU) para inferência rápida, 
 O modelo base utilizado foi o `yolov8n.pt` (Nano), otimizado para velocidade. O dataset foi construído manualmente e submetido a técnicas de anotação de _bounding boxes_.
 * **Épocas (Epochs):** 500 (com Early Stopping)
 * **Confiança de Inferência (Conf):** 0.05 (Ajustado para o MVP)
-
----
-
-## 👥 Equipa
-
-* **[Teu Nome / Nome do Grupo]** - Desenvolvimento de IA e Segurança de Software.
